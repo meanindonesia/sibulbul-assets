@@ -1,542 +1,662 @@
 {
-  "HorizonLayout":[
-  {
-  "layout":"logo",
-  "showNotification":true,
-  "showSearch":true,
-  "showMenu":true,
-  "showLogo":true,
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/logo-orange.webp",
-  "menuIcon":{
-  "name":"paw",
-  "fontFamily":"CupertinoIcons"
-  },
-  "pos":100
-  },
-  {
-  "wrap":false,
-  "marginRight":10,
-  "items":[
-  {
-  "showDescription":false,
-  "category":"107",
-  "keepDefaultTitle":true,
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/anjing.webp",
-  "title":"Makanan Anjing",
-  "originalColor":true,
-  "colors":["#3CC2BF",
-  "#3CC2BF"]
-  },
-  {
-  "title":"Makanan Kucing",
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/kucing.webp",
-  "colors":["#3E6AB5",
-  "#3E6AB5"],
-  "showDescription":false,
-  "originalColor":true,
-  "category":"83",
-  "keepDefaultTitle":true
-  },
-  {
-  "title":"Makanan Kelinci",
-  "keepDefaultTitle":true,
-  "originalColor":true,
-  "category":"188",
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/kelinci.webp",
-  "showDescription":false,
-  "colors":["#53A2CC",
-  "#53A2CC"]
-  },
-  {
-  "colors":["#53688A",
-  "#53688A"],
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/petcare.webp",
-  "originalColor":true,
-  "title":"Petcare",
-  "showDescription":false,
-  "category":"124",
-  "keepDefaultTitle":true
-  },
-  {
-  "title":"Obat & Vitamin",
-  "colors":["#43506A",
-  "#43506A"],
-  "showDescription":false,
-  "keepDefaultTitle":true,
-  "category":"120",
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/obatvitamin.webp",
-  "originalColor":true
-  },
-  {
-  "showDescription":false,
-  "colors":["#12B58C",
-  "#12B58C"],
-  "originalColor":true,
-  "category":"133",
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/giftcard.webp",
-  "title":"Gift Card",
-  "keepDefaultTitle":true
-  }
+  "HorizonLayout": [
+      {
+          "layout": "logo",
+          "showMenu": true,
+          "showSearch": true,
+          "showLogo": true,
+          "showCart": false,
+          "showNotification": true,
+          "menuIcon": {
+              "fontFamily": "CupertinoIcons",
+              "name": "paw"
+          },
+          "pos": 100,
+          "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/logo-orange.webp",
+          "isPreviewing": null,
+          "isBulk": null
+      },
+      {
+          "layout": "category",
+          "type": "icon",
+          "wrap": false,
+          "showShortDescription": true,
+          "size": 1.1,
+          "radius": 50.0,
+          "spacing": 12.0,
+          "items": [
+              {
+                  "showDescription": false,
+                  "keepDefaultTitle": true,
+                  "category": "107",
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/anjing.webp",
+                  "title": "Makanan Anjing",
+                  "colors": [
+                      "#3CC2BF",
+                      "#3CC2BF"
+                  ],
+                  "originalColor": true
+              },
+              {
+                  "colors": [
+                      "#3E6AB5",
+                      "#3E6AB5"
+                  ],
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/kucing.webp",
+                  "originalColor": true,
+                  "showDescription": false,
+                  "keepDefaultTitle": true,
+                  "title": "Makanan Kucing",
+                  "category": "83"
+              },
+              {
+                  "showDescription": false,
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/kelinci.webp",
+                  "originalColor": true,
+                  "keepDefaultTitle": true,
+                  "title": "Makanan Kelinci",
+                  "colors": [
+                      "#53A2CC",
+                      "#53A2CC"
+                  ],
+                  "category": "188"
+              },
+              {
+                  "colors": [
+                      "#53688A",
+                      "#53688A"
+                  ],
+                  "keepDefaultTitle": true,
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/petcare.webp",
+                  "showDescription": false,
+                  "originalColor": true,
+                  "category": "124",
+                  "title": "Petcare"
+              },
+              {
+                  "category": "120",
+                  "originalColor": true,
+                  "showDescription": false,
+                  "colors": [
+                      "#43506A",
+                      "#43506A"
+                  ],
+                  "keepDefaultTitle": true,
+                  "title": "Obat & Vitamin",
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/obatvitamin.webp"
+              },
+              {
+                  "colors": [
+                      "#12B58C",
+                      "#12B58C"
+                  ],
+                  "category": "133",
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/giftcard.webp",
+                  "title": "Gift Card",
+                  "showDescription": false,
+                  "keepDefaultTitle": true,
+                  "originalColor": true
+              }
+          ],
+          "line": false,
+          "marginLeft": 10.0,
+          "marginRight": 10.0,
+          "marginTop": 10.0,
+          "marginBottom": 10.0,
+          "pos": 200,
+          "paddingX": 0.0,
+          "paddingY": 0.0,
+          "marginX": 0.0,
+          "marginY": 0.0,
+          "hideTitle": false,
+          "noBackground": false,
+          "imageBorderWidth": 0.0,
+          "imageBorderColor": null,
+          "imageBorderStyle": "solid",
+          "imageSpacing": 0.0,
+          "labelFontSize": 14.0
+      },
+      {
+          "marginBottom": 10,
+          "fit": "fitWidth",
+          "marginLeft": null,
+          "design": "swiper",
+          "radius": 20,
+          "showBackground": false,
+          "isBlur": false,
+          "padding": 0,
+          "marginRight": null,
+          "intervalTime": 3,
+          "showNumber": false,
+          "marginTop": 15,
+          "autoPlay": true,
+          "layout": "bannerImage",
+          "isSlider": true,
+          "items": [
+              {
+                  "showSubcategory": false,
+                  "url_launch": "https://sibulbul.co.id/pengiriman/",
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/1.webp"
+              },
+              {
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/2.webp",
+                  "url_launch": "https://sibulbul.co.id/testimoni/",
+                  "showSubcategory": false
+              },
+              {
+                  "showSubcategory": false,
+                  "blog": "12",
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/3.webp"
+              },
+              {
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/4.webp",
+                  "showSubcategory": true,
+                  "category": "107"
+              }
+          ],
+          "upHeight": 0,
+          "pos": 300
+      },
+      {
+          "name": "Sedang Diskon ⚡️",
+          "layout": "saleOff",
+          "isSnapping": true,
+          "rows": 1,
+          "columns": 0,
+          "imageBoxfit": "cover",
+          "imageRatio": 1.2,
+          "hMargin": 9.0,
+          "vMargin": 18.0,
+          "hPadding": 8.0,
+          "vPadding": 9.0,
+          "pos": 400,
+          "showStockStatus": false,
+          "enableRating": false,
+          "hideTitle": false,
+          "hideStore": false,
+          "hidePrice": false,
+          "showHeart": true,
+          "showCartButton": false,
+          "cartIconRadius": 9.0,
+          "showQuantity": false,
+          "showCartIconColor": false,
+          "showCartIcon": true,
+          "enableBottomAddToCart": true,
+          "cardDesign": "card",
+          "borderRadius": 5.0,
+          "backgroundRadius": 0.0,
+          "showCartButtonWithQuantity": false,
+          "titleLine": 2,
+          "orderby": "price",
+          "limit": 10,
+          "onSale": true,
+          "featured": true,
+          "showCountDown": true,
+          "backgroundColor": "ffef6c00",
+          "backgroundImage": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/promo.webp",
+          "spaceWidth": 199.8574900072675,
+          "backgroundHeight": 366.0,
+          "backgroundBoxFit": "fitHeight",
+          "paddingBGP": {
+              "top": 10.0334226623062,
+              "left": 0.0,
+              "right": 0.0,
+              "bottom": 0.0
+          },
+          "boxShadow": {
+              "blurRadius": 10.0,
+              "colorOpacity": 0.1,
+              "spreadRadius": 10.0,
+              "x": 7.0,
+              "y": 9.0
+          }
+      },
+      {
+          "category": "107",
+          "hideStore": false,
+          "showCartButton": false,
+          "cardDesign": "card",
+          "backgroundRadius": 10,
+          "hMargin": 6,
+          "columns": 3,
+          "showQuantity": false,
+          "enableRating": true,
+          "showCartIcon": true,
+          "enableBottomAddToCart": false,
+          "name": "Makanan Anjing",
+          "hideTitle": false,
+          "vPadding": 0,
+          "imageBoxfit": "cover",
+          "cartIconRadius": 9,
+          "showCartButtonWithQuantity": false,
+          "showCartIconColor": false,
+          "backgroundWidthMode": true,
+          "showStockStatus": true,
+          "imageRatio": 1.2,
+          "backgroundHeight": 250,
+          "rows": 1,
+          "vMargin": 0,
+          "hPadding": 0,
+          "isSnapping": false,
+          "borderRadius": 3,
+          "showHeart": false,
+          "layout": "threeColumn",
+          "hidePrice": false,
+          "pos": 500
+      },
+      {
+          "imageBoxfit": "cover",
+          "showHeart": false,
+          "borderRadius": 3,
+          "showCartIconColor": false,
+          "showQuantity": false,
+          "hidePrice": false,
+          "enableRating": true,
+          "columns": 3,
+          "showStockStatus": true,
+          "layout": "threeColumn",
+          "hideTitle": false,
+          "vMargin": 0,
+          "hMargin": 6,
+          "showCartIcon": true,
+          "backgroundWidthMode": true,
+          "enableBottomAddToCart": false,
+          "vPadding": 0,
+          "cardDesign": "card",
+          "imageRatio": 1.2,
+          "hPadding": 0,
+          "backgroundRadius": 10,
+          "hideStore": false,
+          "backgroundHeight": 250,
+          "showCartButtonWithQuantity": false,
+          "isSnapping": false,
+          "cartIconRadius": 9,
+          "rows": 1,
+          "category": "83",
+          "showCartButton": false,
+          "name": "Makanan Kucing",
+          "pos": 600
+      },
+      {
+          "marginLeft": 0,
+          "fit": "fitWidth",
+          "items": [
+              {
+                  "radius": 9,
+                  "bannerWithProduct": true,
+                  "category": "107",
+                  "productLength": 3,
+                  "products": [],
+                  "showSubcategory": false,
+                  "padding": 15,
+                  "defaultShowProduct": false,
+                  "image": "https://cdn.sibulbul.co.id/wp-content/uploads/2021/11/featured.webp",
+                  "coupon": "blackf"
+              }
+          ],
+          "layout": "bannerImage",
+          "marginTop": 20,
+          "marginBottom": 0,
+          "marginRight": 0,
+          "height": 0.15,
+          "design": "static",
+          "pos": 700
+      },
+      {
+          "backgroundColor": null,
+          "layout": "spacer",
+          "height": 10,
+          "useLightColor": false,
+          "pos": 800
+      },
+      {
+          "isLogoCornerRounded": true,
+          "isBrandNameShown": false,
+          "name": "Brand",
+          "layout": "brand",
+          "pos": 900
+      },
+      {
+          "name": "Info Terbaru",
+          "layout": "twoColumn",
+          "cardDesign": "background",
+          "type": "blog",
+          "isSnapping": false,
+          "limit": 10,
+          "category": "19",
+          "pos": 1000
+      },
+      {
+          "name": "Recent View",
+          "layout": "recentView",
+          "pos": 1100
+      }
   ],
-  "paddingY":0,
-  "imageBorderStyle":"solid",
-  "type":"icon",
-  "layout":"category",
-  "noBackground":false,
-  "marginX":0,
-  "marginY":0,
-  "paddingX":0,
-  "marginTop":10,
-  "radius":50,
-  "showShortDescription":true,
-  "imageSpacing":0,
-  "imageBorderWidth":null,
-  "hideTitle":false,
-  "line":false,
-  "marginLeft":10,
-  "labelFontSize":14,
-  "spacing":12,
-  "imageBorderColor":null,
-  "size":1.2,
-  "marginBottom":10,
-  "pos":200
+  "Setting": {
+      "MainColor": "#3FC1BE",
+      "StickyHeader": true,
+      "TabBarConfig": {
+          "iconSize": 23.025228226675463,
+          "marginBottom": 0,
+          "paddingLeft": 0,
+          "radiusTopLeft": 0,
+          "showFloating": true,
+          "radiusBottomLeft": 0,
+          "marginLeft": 0,
+          "isSafeArea": true,
+          "indicatorStyle": "material",
+          "paddingBottom": 0,
+          "radiusBottomRight": 0,
+          "marginTop": 0,
+          "paddingTop": 0,
+          "showFloatingClip": false,
+          "colorActiveIcon": "ffef6c00",
+          "radiusTopRight": 0,
+          "colorCart": "fffe2060",
+          "colorIcon": "ff7a7b7f",
+          "enable": true,
+          "TabBarIndicator": {
+              "horizontalPadding": null,
+              "verticalPadding": null,
+              "tabPosition": "top",
+              "distanceFromCenter": null,
+              "bottomRightRadius": 9.988863169703269,
+              "topLeftRadius": null,
+              "height": null,
+              "topRightRadius": null,
+              "color": "ffef6c00",
+              "radius": null,
+              "strokeWidth": null,
+              "bottomLeftRadius": 9.980371609191021,
+              "paintingStyle": "fill"
+          },
+          "marginRight": 0,
+          "color": null,
+          "paddingRight": 0,
+          "TabBarFloating": {
+              "color": "ffef6c00",
+              "elevation": 2,
+              "width": null,
+              "location": "centerDocked",
+              "floatingType": "rectangle",
+              "height": null,
+              "radius": 16,
+              "position": 2
+          }
+      },
+      "ProductListLayout": "list",
+      "FontFamily": "Roboto",
+      "FontHeader": "Raleway",
+      "ShowChat": true
   },
-  {
-  "layout":"bannerImage",
-  "design":"swiper",
-  "fit":"fitWidth",
-  "marginLeft":null,
-  "items":[
-  {
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/1.webp",
-  "showSubcategory":false,
-  "url_launch":"https://sibulbul.co.id/pengiriman/"
-  },
-  {
-  "showSubcategory":false,
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/2.webp",
-  "url_launch":"https://sibulbul.co.id/testimoni/"
-  },
-  {
-  "showSubcategory":false,
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/3.webp",
-  "url_launch":"https://sibulbul.co.id/testimoni/"
-  },
-  {
-  "showSubcategory":false,
-  "image":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/4.webp"
-  }
+  "TabBar": [
+      {
+          "pos": 100,
+          "layout": "home",
+          "icon": "assets/icons/tabs/icon-home.png",
+          "label": "Beranda",
+          "fontFamily": null
+      },
+      {
+          "fontFamily": null,
+          "layout": "category",
+          "label": "Kategori",
+          "categoryLayout": "animation",
+          "categories": [
+              "107",
+              "83",
+              "188",
+              "124",
+              "120",
+              "133"
+          ],
+          "pos": 200,
+          "icon": "assets/icons/tabs/icon-category.png",
+          "images": null
+      },
+      {
+          "layout": "search",
+          "pos": 300,
+          "label": "Cari",
+          "icon": "assets/icons/tabs/icon-search.png",
+          "fontFamily": null
+      },
+      {
+          "fontFamily": "CupertinoIcons",
+          "icon": "cart_fill_badge_plus",
+          "label": "Keranjang",
+          "pos": 400,
+          "layout": "cart"
+      },
+      {
+          "layout": "profile",
+          "icon": "assets/icons/tabs/icon-user.png",
+          "fontFamily": null,
+          "label": "Akun",
+          "pos": 500,
+          "settings": [
+              "wishlist",
+              "notifications",
+              "darkTheme",
+              "order",
+              "point",
+              "rating",
+              "privacy",
+              "about"
+          ],
+          "background": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/profil.jpg",
+          "subGeneralSetting": {
+              "privacy": {
+                  "pageId": 13
+              },
+              "about": {
+                  "requiredLogin": false,
+                  "webViewMode": false,
+                  "webUrl": "https://sibulbul.co.id"
+              }
+          },
+          "drawerIcon": {
+              "icon": "paw_solid",
+              "fontFamily": "CupertinoIcons"
+          }
+      }
   ],
-  "marginBottom":10.0,
-  "marginRight":null,
-  "marginTop":15.0,
-  "radius":20.0,
-  "padding":0.0,
-  "isSlider":true,
-  "autoPlay":true,
-  "intervalTime":3,
-  "showNumber":false,
-  "isBlur":false,
-  "showBackground":false,
-  "upHeight":0.0,
-  "pos":300
+  "AppBar": {
+      "items": [
+          {
+              "marginLeft": 16,
+              "paddingBottom": 4,
+              "iconSize": 24,
+              "marginRight": 4,
+              "paddingRight": 4,
+              "radius": 18,
+              "fontFamily": "CupertinoIcons",
+              "paddingTop": 4,
+              "type": "icon",
+              "fontSize": 16,
+              "textOpacity": 0.5,
+              "alignment": "center",
+              "fontWeight": "400",
+              "marginBottom": 4,
+              "pos": 100,
+              "marginTop": 4,
+              "icon": "square_grid_2x2",
+              "key": "gbs354efgo",
+              "size": 40,
+              "action": "menu",
+              "paddingLeft": 4,
+              "backgroundColor": "0"
+          },
+          {
+              "marginTop": 4,
+              "paddingTop": 4,
+              "alignment": "center",
+              "iconSize": 24,
+              "fontWeight": "800",
+              "type": "text",
+              "fontFamily": "CupertinoIcons",
+              "action": "none",
+              "marginLeft": 4,
+              "title": "TOY ZONE",
+              "paddingBottom": 4,
+              "size": 20,
+              "paddingRight": 4,
+              "marginRight": 4,
+              "key": "cm03ohengg",
+              "pos": 200,
+              "icon": "location",
+              "backgroundColor": "#00000000",
+              "paddingLeft": 4,
+              "radius": 16,
+              "fontSize": 18,
+              "marginBottom": 4,
+              "textOpacity": 0.8
+          },
+          {
+              "key": "swrxx0zicb",
+              "fontSize": 16,
+              "marginBottom": 4,
+              "icon": "shopping_cart",
+              "marginTop": 4,
+              "paddingBottom": 4,
+              "textOpacity": 0.5,
+              "iconSize": 24,
+              "marginRight": 16,
+              "paddingTop": 4,
+              "fontFamily": "CupertinoIcons",
+              "fontWeight": "400",
+              "type": "icon",
+              "marginLeft": 4,
+              "size": 40,
+              "paddingRight": 4,
+              "action": "cart",
+              "pos": 400,
+              "alignment": "center",
+              "paddingLeft": 4,
+              "radius": 18,
+              "backgroundColor": "0"
+          }
+      ],
+      "showOnScreens": []
   },
-  {
-  "cardDesign":"card",
-  "featured":true,
-  "hideTitle":false,
-  "columns":0,
-  "cartIconRadius":9,
-  "enableRating":false,
-  "hPadding":8,
-  "showCartButtonWithQuantity":false,
-  "titleLine":2,
-  "hMargin":9,
-  "imageBoxfit":"cover",
-  "showCartIcon":true,
-  "backgroundImage":"https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/promo.webp",
-  "backgroundHeight":415,
-  "enableBottomAddToCart":false,
-  "spaceWidth":200.3202216569767,
-  "onSale":true,
-  "showCartButton":false,
-  "showQuantity":false,
-  "imageRatio":1.2,
-  "name":"Sedang Diskon ⚡️",
-  "showCountDown":true,
-  "showStockStatus":false,
-  "backgroundBoxFit":"fitHeight",
-  "showCartIconColor":false,
-  "paddingBGP":{
-  "bottom":0,
-  "left":0,
-  "top":10.0334226623062,
-  "right":0
-  },
-  "borderRadius":5,
-  "hideStore":false,
-  "boxShadow":{
-  "y":9,
-  "spreadRadius":10,
-  "x":7,
-  "blurRadius":10,
-  "colorOpacity":0.1
-  },
-  "limit":10,
-  "showHeart":true,
-  "backgroundColor":"ffef6c00",
-  "vMargin":18,
-  "isSnapping":true,
-  "backgroundRadius":0,
-  "layout":"saleOff",
-  "rows":1,
-  "vPadding":9,
-  "hidePrice":false,
-  "orderby":"price",
-  "pos":400
-  },
-  {
-  "layout":"threeColumn",
-  "columns":3,
-  "hideTitle":false,
-  "category":"107",
-  "name":"Makanan Anjing",
-  "showCartButtonWithQuantity":false,
-  "hideStore":false,
-  "showCartButton":false,
-  "imageBoxfit":"cover",
-  "cartIconRadius":9,
-  "rows":1,
-  "imageRatio":1.2,
-  "showStockStatus":true,
-  "showHeart":false,
-  "borderRadius":3,
-  "enableRating":true,
-  "isSnapping":false,
-  "hidePrice":false,
-  "backgroundHeight":250,
-  "showCartIconColor":false,
-  "backgroundRadius":10,
-  "vMargin":0,
-  "showCartIcon":true,
-  "cardDesign":"card",
-  "hMargin":6,
-  "vPadding":0,
-  "backgroundWidthMode":true,
-  "hPadding":0,
-  "enableBottomAddToCart":false,
-  "showQuantity":false,
-  "pos":500
-  },
-  {
-  "fit":"fitWidth",
-  "marginLeft":0,
-  "layout":"bannerImage",
-  "marginRight":0,
-  "marginTop":20,
-  "height":0.15,
-  "marginBottom":0,
-  "design":"static",
-  "items":[
-  {
-  "radius":9,
-  "padding":15,
-  "productLength":3,
-  "bannerWithProduct":true,
-  "showSubcategory":false,
-  "defaultShowProduct":false,
-  "image":"https://cdn.sibulbul.co.id/wp-content/uploads/2021/11/featured.webp",
-  "coupon":"blackf",
-  "products":[]
+  "Drawer": {
+      "zoomConfig": {
+          "style": "default",
+          "enableShadow": false,
+          "angle": 0,
+          "slideWidth": 0.65,
+          "slideMargin": 0,
+          "mainScreenScale": 0.3,
+          "borderRadius": 16,
+          "backgroundImage": null
+      },
+      "items": [
+          {
+              "type": "home",
+              "show": true
+          },
+          {
+              "type": "categories",
+              "show": true
+          },
+          {
+              "type": "cart",
+              "show": true
+          },
+          {
+              "type": "blog",
+              "show": true
+          },
+          {
+              "type": "profile",
+              "show": false
+          },
+          {
+              "type": "category",
+              "show": false
+          },
+          {
+              "type": "web",
+              "show": false
+          },
+          {
+              "type": "post-9ra1l3omf3",
+              "show": true
+          },
+          {
+              "type": "post-kf9pqb9f4a",
+              "show": true
+          },
+          {
+              "type": "post-qlyyxdx8sb",
+              "show": true
+          },
+          {
+              "type": "post-5mhec0p1kh",
+              "show": true
+          },
+          {
+              "type": "post-tg2mezbqd2",
+              "show": true
+          },
+          {
+              "type": "post-w8909qpixn",
+              "show": true
+          },
+          {
+              "type": "login",
+              "show": true
+          }
+      ],
+      "logo": "https://cdn.sibulbul.co.id/wp-content/uploads/2022/01/logo-sibulbul-footer.webp",
+      "logoConfig": {
+          "width": 240,
+          "height": 50,
+          "marginLeft": 30,
+          "marginRight": 0,
+          "marginTop": 60,
+          "marginBottom": 10,
+          "boxFit": "cover"
+      },
+      "subDrawerItem": {
+          "post-9ra1l3omf3": {
+              "pageId": 5072,
+              "icon": "exclamationmark_circle_fill",
+              "iconFontFamily": "CupertinoIcons",
+              "title": "Syarat & Ketentuan"
+          },
+          "post-w8909qpixn": {
+              "pageId": 5668,
+              "icon": "checkmark_seal_fill",
+              "iconFontFamily": "CupertinoIcons",
+              "title": "Testimoni"
+          },
+          "post-kf9pqb9f4a": {
+              "pageId": 123,
+              "icon": "exclamationmark_triangle_fill",
+              "iconFontFamily": "CupertinoIcons",
+              "title": "Kebijakan Privasi"
+          },
+          "post-qlyyxdx8sb": {
+              "pageId": 234,
+              "icon": "cart_fill_badge_plus",
+              "iconFontFamily": "CupertinoIcons",
+              "title": "Kebijakan Toko"
+          },
+          "post-5mhec0p1kh": {
+              "pageId": 123,
+              "icon": "airplane",
+              "iconFontFamily": "CupertinoIcons",
+              "title": "Pengiriman"
+          },
+          "post-tg2mezbqd2": {
+              "pageId": 123,
+              "icon": "refresh_circled_solid",
+              "iconFontFamily": "CupertinoIcons",
+              "title": "Kebijakan Pengembalian"
+          }
+      },
+      "key": "c6rjyyvj73",
+      "filter": 0
   }
-  ],
-  "pos":600
-  },
-  {
-  "backgroundColor":null,
-  "layout":"spacer",
-  "useLightColor":false,
-  "height":10,
-  "pos":700
-  },
-  {
-  "isLogoCornerRounded":true,
-  "layout":"brand",
-  "name":"Brand",
-  "isBrandNameShown":false,
-  "pos":800
-  },
-  {
-  "name":"Recent View",
-  "layout":"recentView",
-  "pos":900
-  },
-  {
-  "type":"blog",
-  "isSnapping":false,
-  "cardDesign":"background",
-  "layout":"twoColumn",
-  "pos":1000
-  },
-  {
-  "layout":"blog",
-  "name":"Our Blog Posts",
-  "pos":1100
-  }
-  ],
-  "Setting":{
-  "ProductListLayout":"list",
-  "ShowChat":true,
-  "FontFamily":"Roboto",
-  "StickyHeader":true,
-  "TabBarConfig":{
-  "paddingRight":0,
-  "marginTop":0,
-  "colorActiveIcon":"ffef6c00",
-  "radiusTopLeft":0,
-  "paddingBottom":0,
-  "TabBarFloating":{
-  "location":"centerDocked",
-  "position":2,
-  "radius":16,
-  "color":"ffef6c00",
-  "elevation":2,
-  "height":null,
-  "floatingType":"rectangle",
-  "width":null
-  },
-  "indicatorStyle":"material",
-  "iconSize":23.025228226675463,
-  "isSafeArea":true,
-  "showFloatingClip":false,
-  "TabBarIndicator":{
-  "distanceFromCenter":null,
-  "verticalPadding":null,
-  "bottomLeftRadius":9.980371609191021,
-  "height":null,
-  "strokeWidth":null,
-  "tabPosition":"top",
-  "bottomRightRadius":9.988863169703269,
-  "radius":null,
-  "horizontalPadding":null,
-  "topRightRadius":null,
-  "paintingStyle":"fill",
-  "color":"ffef6c00",
-  "topLeftRadius":null
-  },
-  "paddingTop":0,
-  "marginLeft":0,
-  "radiusBottomLeft":0,
-  "color":null,
-  "radiusBottomRight":0,
-  "showFloating":true,
-  "enable":true,
-  "colorIcon":"ff7a7b7f",
-  "colorCart":"fffe2060",
-  "marginRight":0,
-  "marginBottom":0,
-  "paddingLeft":0,
-  "radiusTopRight":0
-  },
-  "MainColor":"#3FC1BE",
-  "FontHeader":"Raleway"
-  },
-  "TabBar":[
-  {
-  "layout":"home",
-  "label":"Beranda",
-  "pos":100,
-  "fontFamily":null,
-  "icon":"assets/icons/tabs/icon-home.png"
-  },
-  {
-  "categories":["107",
-  "83",
-  "188",
-  "124",
-  "120",
-  "133"],
-  "pos":200,
-  "images":null,
-  "icon":"assets/icons/tabs/icon-category.png",
-  "layout":"category",
-  "label":"Kategori",
-  "categoryLayout":"animation",
-  "fontFamily":null
-  },
-  {
-  "layout":"search",
-  "pos":300,
-  "label":"Cari",
-  "fontFamily":null,
-  "icon":"assets/icons/tabs/icon-search.png"
-  },
-  {
-  "fontFamily":"CupertinoIcons",
-  "icon":"cart_fill_badge_plus",
-  "label":"Keranjang",
-  "pos":400,
-  "layout":"cart"
-  },
-  {
-  "pos":500,
-  "layout":"profile",
-  "fontFamily":null,
-  "icon":"assets/icons/tabs/icon-user.png",
-  "background":"https://cdn.sibulbul.co.id/wp-content/uploads/2021/11/featured.webp",
-  "settings":["wishlist",
-  "notifications",
-  "darkTheme",
-  "order",
-  "point",
-  "rating",
-  "wallet"],
-  "label":"Akun"
-  }
-  ],
-  "AppBar":{
-  "showOnScreens":[],
-  "items":[
-  {
-  "marginLeft":16,
-  "pos":100,
-  "paddingLeft":4,
-  "backgroundColor":"0",
-  "marginTop":4,
-  "size":40,
-  "fontSize":16,
-  "paddingTop":4,
-  "radius":18,
-  "marginBottom":4,
-  "fontWeight":"400",
-  "alignment":"center",
-  "icon":"square_grid_2x2",
-  "key":"gbs354efgo",
-  "paddingRight":4,
-  "fontFamily":"CupertinoIcons",
-  "iconSize":24,
-  "marginRight":4,
-  "textOpacity":0.5,
-  "action":"menu",
-  "type":"icon",
-  "paddingBottom":4
-  },
-  {
-  "title":"TOY ZONE",
-  "textOpacity":0.8,
-  "fontWeight":"800",
-  "marginLeft":4,
-  "paddingBottom":4,
-  "marginRight":4,
-  "type":"text",
-  "marginBottom":4,
-  "iconSize":24,
-  "alignment":"center",
-  "size":20,
-  "radius":16,
-  "key":"cm03ohengg",
-  "icon":"location",
-  "action":"none",
-  "fontFamily":"CupertinoIcons",
-  "paddingLeft":4,
-  "paddingRight":4,
-  "paddingTop":4,
-  "fontSize":18,
-  "pos":200,
-  "marginTop":4,
-  "backgroundColor":"#00000000"
-  },
-  {
-  "pos":400,
-  "backgroundColor":"0",
-  "paddingRight":4,
-  "fontSize":16,
-  "marginBottom":4,
-  "paddingBottom":4,
-  "marginTop":4,
-  "marginLeft":4,
-  "textOpacity":0.5,
-  "icon":"shopping_cart",
-  "radius":18,
-  "alignment":"center",
-  "paddingTop":4,
-  "size":40,
-  "type":"icon",
-  "iconSize":24,
-  "fontFamily":"CupertinoIcons",
-  "paddingLeft":4,
-  "marginRight":16,
-  "key":"swrxx0zicb",
-  "fontWeight":"400",
-  "action":"cart"
-  }
-  ]
-  },
-  "Drawer":{
-  "key":"tf186itbxw",
-  "subDrawerItem":{
-  "post-w8909qpixn":{
-  "title":"Testimoni",
-  "iconFontFamily":"CupertinoIcons",
-  "icon":"news",
-  "pageId":5668
-  },
-  "post-9ra1l3omf3":{
-  "iconFontFamily":"CupertinoIcons",
-  "icon":"news",
-  "title":"Syarat & Ketentuan",
-  "pageId":5072}
-  },
-  "logoConfig":{
-  "width":240,
-  "height":50,
-  "boxFit":"cover",
-  "marginRight":0,
-  "marginTop":60,
-  "marginLeft":30,
-  "marginBottom":10
-  },
-  "items":[
-  {
-  "show":true,
-  "type":"home"
-  },
-  {
-  "type":"categories",
-  "show":true
-  },
-  {
-  "show":true,
-  "type":"cart"
-  },
-  {
-  "show":true,
-  "type":"blog"
-  },
-  {
-  "type":"profile",
-  "show":true
-  },
-  {
-  "show":false,
-  "type":"category"
-  },
-  {
-  "show":true,
-  "type":"web"
-  },
-  {
-  "type":"post-w8909qpixn",
-  "show":true
-  },
-  {
-  "show":true,
-  "type":"post-9ra1l3omf3"
-  },
-  {
-  "show":true,
-  "type":"login"
-  }
-  ],
-  "filter":0,
-  "logo":"https://cdn.sibulbul.co.id/wp-content/uploads/2022/01/logo-sibulbul-footer.webp"}}
+}
