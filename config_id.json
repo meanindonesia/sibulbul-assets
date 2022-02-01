@@ -135,13 +135,13 @@
           "items": [
               {
                   "showSubcategory": false,
-                  "blog": "12",
+                  "url_launch": "https://sibulbul.co.id/pengiriman/",
                   "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/1.webp"
               },
               {
-                  "showSubcategory": false,
-                  "blog": "12",
-                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/2.webp"
+                  "image": "https://raw.githubusercontent.com/meanindonesia/sibulbul-assets/main/2.webp",
+                  "url_launch": "https://sibulbul.co.id/testimoni/",
+                  "showSubcategory": false
               },
               {
                   "showSubcategory": false,
@@ -284,7 +284,7 @@
               {
                   "radius": 9,
                   "bannerWithProduct": true,
-                  "blog": "12",
+                  "category": "107",
                   "productLength": 3,
                   "products": [],
                   "showSubcategory": false,
@@ -391,13 +391,11 @@
   },
   "TabBar": [
       {
-          "layout": "profile",
-          "icon": "assets/icons/tabs/icon-home.png",
-          "fontFamily": null,
-          "label": "Beranda",
           "pos": 100,
-          "settings": null,
-          "background": null
+          "layout": "home",
+          "icon": "assets/icons/tabs/icon-home.png",
+          "label": "Beranda",
+          "fontFamily": null
       },
       {
           "fontFamily": null,
